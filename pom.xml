@@ -329,7 +329,8 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.3</version>
                 <configuration>
-                    <warName>petclinic</warName>
+			<warName>petclinic</warName>
+		        <outputDirectory>/opt/tomcat9/webapps/</outputDirectory>	
                 </configuration>
             </plugin>
             <plugin>
